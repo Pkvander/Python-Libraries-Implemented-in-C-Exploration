@@ -3,7 +3,7 @@ Exploring how to achieve high performance in Python by writing intensive program
 
 https://canva.link/yk48o5pz9m4rdqx
 
-I used AI as a learning tool to explore how C programs can be imported into Python programs to improve efficiency of computationally intensive operations. I wanted to explore how programs can integrate multiple languages to combine their best parts.
+I used AI as a learning tool to explore how C programs can be imported into Python programs, improving efficiency of computationally intensive operations. I wanted to explore how programs can integrate multiple languages to combine their best parts.
 
 What I explored:
 
