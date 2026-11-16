@@ -7,6 +7,13 @@ I used AI as a learning tool to explore how C programs can be imported into Pyth
 
 What I explored:
 
-1. I learned about what cytypes is and used for, and how it handles conversions between integers represented in Python and C, etc. To explore this, I wrote a simple function in C that takes two integers, adds them, and returns the result. I imported it into a main Python program. As part of this, I learned about the differences between how C and Python store integers, and how Python has to store more information about variable type and reference data.
+1. I learned what cytypes is and used for, and how it handles conversions between integers represented in Python and C, etc. To explore this, I wrote a simple function in C that takes two integers, adds them, and returns the result. I imported it into a main Python program. As part of this, I learned about the differences between how C and Python store integers, such as how Python has to store more information about variable type and reference data.
 
-2. I learned what Numpy is and how it supports mathematical operations on entire arrays.
+2. I learned what Numpy is and how it supports efficient mathematical operations on entire arrays. To explore this library I ran small sample code pieces such as matrix multiplication and tracking daily changes in a simulated stock price array.
+
+3. I compared the performance of a C and Python program squaring numbers from 1 to 1 million as a hands on way to learn why performance-critical operations are sometimes programmed in C rather than Python
+
+Instructions for running code:
+
+First compile the C code by running gcc -shared -o math_functions.dll math_functions.c
+Then run either of the Python programs, and the result will be printed in the terminal
