@@ -15,6 +15,8 @@ What I explored:
 
 4. I compared the performance of a C and Python program, squaring numbers from 1 to 1-million as a hands on way to learn why performance-critical operations are sometimes programmed in C rather than Python.
 
+The versatility of NumPy was really intriguing to me and I'd like to use it in future programs.
+
 Instructions for running code:
 
 First compile the C code by running gcc -shared -o math_functions.dll math_functions.c
